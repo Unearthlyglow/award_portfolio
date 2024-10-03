@@ -1,0 +1,42 @@
+$primary-white: rgb(249, 232, 219);
+$primary-white-text: rgb(252, 248, 245);
+$primary-red: #8C2525;
+$primary-yellow: #D3A632;
+$primary-yellow-light: #eec96b;
+$primary-green: #2b5b51;
+
+
+p,
+li,
+h1,
+a {
+	font-family: 'Lato', sans-serif;
+	color: $primary-white-text;
+}
+
+li {
+	list-style-type: none;
+	font-weight: 700;
+	font-size: 0.7rem;
+	color: $primary-white-text;
+}
+
+li:hover {
+	color: $primary-yellow;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
